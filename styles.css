@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    margin: 10px;
+    padding: 30px;
+    max-width: 1250px;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 0;
+}
+.logo{
+    margin-right: 30px;
+}
+.navbar ul{
+    padding-right: 250px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+.navbar ul li i{
+    display: flex;
+}
+.icon{
+    padding-left: 100px;
+}
+.img1{
+    max-width: 100%;
+    min-height: auto;
+}
+.no1{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    padding-left:25rem;
+}
+.text h1{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.text p{
+    margin: 20px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.img2{
+    padding-bottom: 20px;
+}
+.item h3{
+    font-size: 17px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.item p{
+    line-height: 1.5rem;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.item a{
+    text-decoration: none;
+    color: rgba(24, 51, 160, 0.823);
+    font-size: 15px;
+    font-weight: bolder;
+}
+.img3{
+    width: 100%;
+    height: 50vh;
+}
+.main{
+    position: relative;
+}
+.xbox{
+    position: absolute;
+    top: 0;
+    padding: 60px 30px;
+}
+.xbox h1{
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.xbox p{
+    line-height: 1.5rem;
+    padding-bottom: 15px;
+}
+.xbox button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.img4{
+    padding-bottom: 20px;
+}
+.game h1{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.game p{
+    padding-bottom: 10px;
+    line-height: 1.5rem;
+    padding-right: 20px;
+}
+.game a{
+    text-decoration: none;
+    color: rgba(24, 51, 160, 0.823);
+    font-size: 15px;
+    font-weight: bolder;
+}
+.img5{
+    width: 100%;
+    height: 45vh;
+}
+.position{
+    position: relative;
+}
+.carbon{
+    position: absolute;
+    top: 0;
+    padding: 7rem 30px;
+}
+.carbon h1{
+    color: white;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.carbon p{
+    color: white;
+    line-height: 1.5rem;
+    padding-bottom: 20px;
+}
+.carbon button{
+    padding: 10px 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.para{
+    display: flex;
+    align-items: center;
+}
+.para p{
+    padding-right: 10px;
+}
+.media{
+    padding-right: 15px;
+}
+footer{
+    background-color: rgb(220, 220, 220);
+}
+
+
+.end{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-top: 50px;
+    max-width: 1250px;
+    margin: auto;
+}
+.footer{
+    line-height: 2rem;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.641);
+}
+.footer h5{
+    color: rgba(0, 0, 0, 0.957);
+    font-weight: 900;
+    font-size: 14px;
+}
+.footer ul li{
+    list-style: none;
+}
+.below{
+    display: flex;
+    padding: 30px 0;
+    max-width: 1250px;
+    margin: auto;
+}
+.below h4{
+    padding-right: 30px;
+    color: rgba(0, 0, 0, 0.641);
+}
+.final ul{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+.final ul li{
+    list-style: none;
+    padding-right: 20px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.641);
+}
+.sec{
+    background-color: white;
+    min-height: 70vh;
+}
+@media all and (max-width: 700px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
